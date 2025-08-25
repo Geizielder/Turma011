@@ -1,0 +1,10 @@
+import type FareCalculator from "./FareCalculator";
+import type Segment from "./Segment";
+
+export default class NormalFareCalculator implements FareCalculator {
+  FARE = 2.1;
+  calculate(segment: Segment): number {
+    return segment.distance * this.FARE
+  }
+  
+}
