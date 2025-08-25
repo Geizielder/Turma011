@@ -1,0 +1,36 @@
+1 - nomes
+  1.1 - renomear variável
+  1.2 - renomear função ou método
+  1.3 - renomear classe ou arquivo
+
+2 - linhas em branco dentro de função ou método
+
+  * apagar linha em branco
+
+3 - comentários
+
+  * criando variáveis explicativas
+  * extraindo método explicativos
+  
+4 - código morto
+
+  * apagar código comentado
+
+5 - if/else
+
+  * consolidar comandos condicionais
+  * introdução de clausula guarda
+  * introduzir ternário
+
+6 - magic number
+
+  * introduzir constantes ou variáveis explicativas.
+
+7 - tratamento de erros inadequado
+
+  * utilizar tratamento de erros adequado
+
+8 - longa lista de parâmetros
+
+  * introduzindo objetos
+  * introduzindo objetos parâmentros
