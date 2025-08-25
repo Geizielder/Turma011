@@ -5,19 +5,19 @@ export default class Segment {
   SUNDAY = 0;
 
   constructor (readonly distance: number, readonly date: Date ) {
-        if (!this.isValidDistance()) throw new Error("Invalid Distance");
+        if (!this.isValidDistance(distance)) throw new Error("Invalid Distance");
         if (!this.isValidDate()) throw new Error("Invalid Date");
   }
 
-  isValidDistance(){
-    return this.distance != null && this.distance != undefined && typeof this.distance === "number" && this.distance > 0
+  isValidDistance(distance: number){
+    return distance > 0
   }
   isValidDate() {
     return this.date != null && this.date != undefined && this.date instanceof Date && this.date.toString() !== "Invalid Date";
   }
 
   isOvernight () {
-	return this.date.getHours() >= this.OVERNIGHT_START|| this.date.getHours() <= this.OVERNIGHT_END
+	  return this.date.getHours() >= this.OVERNIGHT_START|| this.date.getHours() <= this.OVERNIGHT_END
   }
 
   isSunday () {
