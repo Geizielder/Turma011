@@ -1,0 +1,18 @@
+
+1 - linhas em branco
+  * remover linhas em branco
+2 - código morto
+  * apagar código morto
+
+3 - if/else
+  * consolidar comandos condicionais
+  * introdução de cláusula guarda
+  * introduzir ternário
+
+4 - tratamento inadequado de erros
+
+  * tirar tray/catch
+
+5 - variáveis declaradas no início
+
+6 - variáveis declaradas juntas 
